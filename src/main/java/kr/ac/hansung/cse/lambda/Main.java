@@ -13,6 +13,7 @@ public class Main {
     }
 
     public static IAdd makeFunction() {
+
         return (x, y) -> x + y;
     }
 }
